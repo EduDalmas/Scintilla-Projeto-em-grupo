@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-image:url(../images/fundo-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+section{
+    display: block;
+    margin: 30px auto;
+    border: 2px solid;
+    background-color: white;
+    border-radius: 10px;
+    width: 60%;
+}
+
+article{
+    padding-top: 20px;
+    width: 75%;
+    display: block;
+    margin: auto;
+}
+
+h1{
+    display: block;
+    margin: 20px;
+    font-family: "Exo 2";
+    font-weight: 600;
+    font-size: 2em;
+    text-align: center;
+}
+
+p{
+    margin: 50px auto;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    text-align: justify;
+}

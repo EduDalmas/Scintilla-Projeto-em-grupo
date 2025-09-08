@@ -1,0 +1,135 @@
+/* Fonte principal do site*/
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+/* Inicio do index*/
+#fundoIndex{
+    background-image:url(../images/fundo-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#index .astronauta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0px;
+    gap: 20px;
+}
+
+#index .astronauta h1{
+    font-family: "Exo 2";
+    font-size: 2.8em;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    cursor:default;
+}
+
+#index .astronauta img{
+    display: block;
+    width: 380px;
+    height: auto;
+    cursor: pointer;
+    border: 2px;
+    transition: .3s;
+    margin-bottom: 15px;
+}
+
+#index .astronauta img:hover{
+    transform: scale(1.1);
+}
+/* Final do index*/
+
+/* Inicio do menu*/
+#fundoMenu {
+    background-image:url(../images/fundo-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#menu h1 {
+    text-align: center;
+    color: white;
+    font-size: 2.8em;
+    font-family: "Exo 2";
+    font-weight: 600;
+    cursor: default;
+    margin-bottom: 50px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#menu #menuOpcoes {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(2, auto);
+    justify-content: center;
+    gap: 20px;
+}
+
+#menu #menuOpcoes h2.nomes {
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-family: "Exo 2";
+    font-weight: 500;
+    cursor: default;
+}
+
+/* IMAGENS */
+#menu #menuOpcoes .planetas img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    transition: .3s;
+}
+#menu #menuOpcoes .planetasaturno img {
+    display: block;
+    object-fit: contain;
+    width: auto;
+    height: 200px;
+    margin: 0 auto;
+    transition: .3s;
+}
+#menu #menuOpcoes .planetas img:hover,
+#menu #menuOpcoes .planetasaturno img:hover {
+    transform: scale(1.1);
+}
+
+/* Linha 1 (topo) */
+#menuOpcoes h2:nth-of-type(1) { grid-column: 1; grid-row: 1; }
+#menuOpcoes a:nth-of-type(2)  { grid-column: 2; grid-row: 1; }
+#menuOpcoes h2:nth-of-type(3) { grid-column: 3; grid-row: 1; }
+#menuOpcoes a:nth-of-type(4)  { grid-column: 4; grid-row: 1; }
+#menuOpcoes h2:nth-of-type(5) { grid-column: 5; grid-row: 1; }
+
+/* Linha 2 (baixo) */
+#menuOpcoes a:nth-of-type(1)  { grid-column: 1; grid-row: 2; }
+#menuOpcoes h2:nth-of-type(2) { grid-column: 2; grid-row: 2; }
+#menuOpcoes a:nth-of-type(3)  { grid-column: 3; grid-row: 2; }
+#menuOpcoes h2:nth-of-type(4) { grid-column: 4; grid-row: 2; }
+#menuOpcoes a:nth-of-type(5)  { grid-column: 5; grid-row: 2; }
+
+#menuOpcoes h2.nomes:nth-of-type(1),
+#menuOpcoes h2.nomes:nth-of-type(3),
+#menuOpcoes h2.nomes:nth-of-type(5){
+    align-self: flex-end;
+    margin-top: 10px; 
+}
+
+#menuOpcoes h2.nomes:nth-of-type(2),
+#menuOpcoes h2.nomes:nth-of-type(4){
+    align-self: flex-start;
+    margin-top: 10px;
+}
