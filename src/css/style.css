@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
 /* Inicio do index*/
 #fundoIndex{
-    background-image:url(../images/fundo-4.jpg);
+    background-image:url(../images/fundos/fundo-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -44,7 +44,7 @@
 
 /* Inicio do menu*/
 #fundoMenu {
-    background-image:url(../images/fundo-3.jpg);
+    background-image:url(../images/fundos/fundo-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
