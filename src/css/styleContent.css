@@ -25,7 +25,8 @@ article{
 
 h1{
     display: block;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
     font-family: "Exo 2";
     font-weight: 600;
     font-size: 2em;
@@ -35,14 +36,51 @@ h1{
 h2{
     display: block;
     font-family: "Exo 2";
-    font-weight: 500;
-    font-size: 2em;
-    text-align: justify;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-align: center;
 }
 
 p{
     margin: 50px auto;
     font-family:'Times New Roman', Times, serif;
     font-size: 1.5em;
+    font-weight: 400;
     text-align: justify;
+}
+
+.navegar {
+    display: flex;
+    justify-content: center; /* centraliza os botões */
+    gap: 20px; /* define o espaço entre eles */
+}
+
+.navegar a {
+    text-decoration: none;
+    color: white;
+    font-family: "Exo 2";
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.navegar span{
+    font-size: 1.5em;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+ol{
+    margin: 50px auto;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: justify;
+}
+li{
+    margin: 10px;
+}
+
+strong{
+    font-weight: bolder;
 }
