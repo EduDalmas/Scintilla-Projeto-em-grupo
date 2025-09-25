@@ -51,8 +51,8 @@ p{
 
 .navegar {
     display: flex;
-    justify-content: center; /* centraliza os botões */
-    gap: 20px; /* define o espaço entre eles */
+    justify-content: center;
+    gap: 20px;
 }
 
 .navegar a {
@@ -83,4 +83,72 @@ li{
 
 strong{
     font-weight: bolder;
+}
+
+.ajeitarimagemd {
+  width: 300px;
+  height: auto;
+  float: right;
+  margin: 0 0 10px 15px;
+}
+
+.ajeitarimageme {
+  width: 300px;
+  height: auto;
+  float: left;
+  margin: 10px 10px 10px 0;
+}
+
+.ajeitarimagemm {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: 30px auto;
+}
+
+.ajeitarimagemm2 {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 30px auto;
+}
+
+.titulo-terra {
+  font-size: 40px;
+  font-weight: bold;
+  background: linear-gradient(to right, brown, green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.titulo-marte {
+  font-size: 40px;
+  font-weight: bold;
+  background: linear-gradient(to right, red, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.titulo-jupiter {
+  font-size: 40px;
+  font-weight: bold;
+  background: linear-gradient(to right, orange, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.titulo-saturno {
+  font-size: 40px;
+  font-weight: bold;
+  background: linear-gradient(to right, rgb(189, 189, 48), brown);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.titulo-urano {
+  font-size: 40px;
+  font-weight: bold;
+  background: linear-gradient(to right, rgb(39, 159, 214), rgb(175, 198, 204));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
